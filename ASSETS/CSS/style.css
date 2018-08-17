@@ -11,13 +11,12 @@ header {
 }
 
  h1{
-    font-size: 28px;   
+    font-size: 30px;   
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: left;    
     margin-left: 20%;
     padding-top: 20px;
-      
- }
+}
  #myname{
     background:grey;  
     width: 20%;
@@ -41,10 +40,15 @@ header {
  }
  .first{
      padding-right: 100px;
+     padding-bottom: 20px;
+
     
  }
  .second{
-     
+     padding-bottom: 20px;
+ }
+ .third{
+
  }
 #left {
     padding-right: 100px;
@@ -93,7 +97,7 @@ p{
 #aboutme {
     background-color: lightblue;
     width: 100%;
-    padding: 10px;
+    padding: 50px;
     text-justify: center;
 }
 
@@ -110,6 +114,8 @@ p{
 #main-bio{
     float: left;
     padding-bottom: 50px;
+    width: 60%;
+    
   }
 #bio-image1 {
     height: 100px;
@@ -117,19 +123,16 @@ p{
     margin: 1%;
     float: left;
 }
-#main-bio {
-    width: 50%;
-}
 #footerlan{
     text-align: center;
 }
 
 .bioimage{
-    height: 100px;
-    width: 100px;   
+    height: 170px;
+    width: 170px;   
 }
 #gallery1 {
-    width: 50%;
+    width: 70%;
     float: left;
     margin-left: 20%;
 }
@@ -159,8 +162,10 @@ input[type=submit]:hover {
 
 footer{
     background:#4aaaa5;       
-    
-    height: 100px;    
-    overflow: auto;
-  clear: both;  
+    position: fixed;
+    width: 100%;
+   padding-top: 20px;    
+/* overflow: auto; */
+  clear: both; 
+  bottom: 0;
 }
